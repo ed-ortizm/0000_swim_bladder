@@ -5,7 +5,7 @@
     \textit{``A body wholly or partially immersed in a fluid will be buoyed up by a 
             force equal to the weight of the fluid that the body displaces"}
     
-    Let's consider an impermeable body of volume $V$ and and mass $m$ with an uniform and constant 
+    Let's consider an impermeable body of volume $V$ and and mass $m$ with an uniform 
     mass density $\rho_0$ inmersed in a fluid of density $\rho_{\omega}$ as shown bellow.\\
     
     \begin{center}
@@ -54,10 +54,5 @@
     fluid's density then the body weight is bigger than buoyancy force and the body goes down until 
     it reaches the botton.
     
-    Densities must be handle with care; thats why impermeability was requested since if the body
-    allows the fluid to go inside without changing its shape, its density in average will be 
-    bigger. Uniform and constant density avoids the cases in which there is one or more cavities 
-    inside the body, in this case the buoyancy does not change but this fact inplies $ m \neq \rho_0 V$.
-    
-    Introduce the fish jeje
+    Densities must be handle with care    
 \end{section}
