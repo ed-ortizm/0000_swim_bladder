@@ -1,0 +1,11 @@
+# ignored files by git,
+# Temp files
+*~
+# LaTeX
+*.backup
+*.log
+*.idx
+*.lof
+*.log
+*.lot
+*.toc
