@@ -15,11 +15,12 @@
     \end{center}
     
     In this model fish have a non constant density since its mass changes depending on the gas
-    input/output in their swim bladder. Then the mass of fish can be written as the sum of a mass 
-    $m_0$, related to the mass of its body without taking into account the gas inside their swim 
-    bladder, and the mass $m_b$ inside their swim bladder. Mass $m_0$ can be regarded as fixed 
-    since it doesn't change in the scale of time the mass $m_b$ varies, then for the density of 
-    fish we have: 
+    input/output in their swim bladder. Then the mass of fish can be written as the sum of a 
+    mass $m_0$, related to the mass of its body and the gas inside their swim bladder so that 
+    its density is equivalent to the density of water, and a residual mass $m_b$ inside their 
+    swim bladder which is possitive if the mass inside the swim bladder makes the fish denser 
+    than water, zero if fish density is equivalent to the density of water and negative if 
+    water is denser than fish. Then for the density of fish we have: 
     
     \begin{eqnarray}
         \rho_p &=& \frac{m_0 \pm m_b}{V}
@@ -50,8 +51,9 @@
         &=& \left( \frac{1}{\frac{\rho_0}{\rho_{\omega}} \pm \frac{\rho_b}{\rho_{\omega}}} -1 \right)g.
     \end{eqnarray}
     
-    Usually the density $\rho_0$ of fish is similar to the density of water \cite{QUENTIN}, then
-    $\rho_{\omega} \simeq \rho_0$ and equation (\ref{fish_dynamics_00}) can be rewritten as follows:
+    In our model the density $\rho_0$ of fish is equivalent to the density of water, however the density
+    of fish is similar to the density of water \cite{QUENTIN}, then $\rho_{\omega} = \rho_0$ and equation 
+    (\ref{fish_dynamics_00}) can be rewritten as follows:
     
     \begin{equation}
         \label{fish_dynamics_01}
